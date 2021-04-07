@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Exhibition billboard of HOA</title>
+
+    <style type="text/css">
+        p {
+            text-align: center;
+        }
+
+        #div_logo {
+            width: 20%;
+            height: 100px;
+            float: left;
+            display: table-cell;
+            text-align: center;
+            box-sizing: border-box;
+            border: 2px solid black
+        }
+
+        #div_navi {
+            width: 80%;
+            height: 100px;
+            float: left;
+            text-align: center;
+            box-sizing: border-box;
+            border: 2px solid black
+        }
+
+        .naviButton {
+            width: 33.3%;
+            height: 100px;
+            float: left;
+            font-family: GyeonggiTitleM;
+        }
+
+        #div_daliy {
+            width: 20%;
+            height: 790px;
+            float: left;
+            text-align: center;
+            box-sizing: border-box;
+            border: 2px solid black
+        }
+
+        .exhibition {
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            margin-top: 10px;
+            font-family: GyeonggiTitleM;
+        }
+
+        .exhibitionInfo {
+            width: 100%;
+            height: 350px;
+            text-align: center;
+        }
+
+        .exhibitionImg {
+            width: 90%;
+            height: 250px;
+        }
+
+        .billboard {
+            width: 80%;
+            height: 790px;
+            float: right;
+        }
+
+        #div_information {
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            float: left;
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            box-sizing: border-box;
+            border: 2px solid black
+        }
+
+        table {
+            width: 90%;
+            height: 50%;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        @font-face {
+            font-family: 'GyeonggiTitleM';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        h1{
+            font-family: GyeonggiTitleM;
+            margin-left: 5%;
+            margin-top: 3%;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <a href="index.html"><img src="img/logo.jpg" id="div_logo" alt="logo" src="index.html"></a>
+    <div id="div_navi">
+        <a href="billboard.html">
+            <button class="naviButton" style="font-size: 60px">ART PIECE</button>
+        </a>
+        <a href="exhibition.html">
+            <button class="naviButton" style="font-size: 55px">EXHIBITION</button>
+        </a>
+        <a href="gallery.html">
+            <button class="naviButton" style="font-size: 55px">GALLERY</button>
+        </a>
+    </div>
+</header>
+
+<aside>
+    <div id="div_daliy">
+        <div class="exhibition">진행중인전시회</div>
+        <div class="exhibitionInfo">
+          <img src="img/exhibition_1.jpg" alt="이승택 - 거꾸로, 비미술" class="exhibitionImg">
+            <div class="exhibition">
+                <a href="https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202001090001230"
+                >이승택 - 거꾸로, 비미술</a>
+                <br>20.11.25 ~ 20.03.28 </br>
+                국립현대미술관 서울</p>
+            </div>
+        </div>
+        <div class="exhibitionInfo">
+            <img src="img/exhibition_2.gif" alt="팀랩: 라이프" class="exhibitionImg">
+            <div class="exhibition">
+                <a href="http://www.ddp.or.kr/event/detail/2061?menuId=20&status=&cateCode="
+                   class="exhibition">팀랩: 라이프</a>
+                <br class="exhibition">20.09.25 ~ 21.04.04 </br>
+                DDP 디자인전시관</p>
+            </div>
+        </div>
+    </div>
+</aside>
+
+<div class="billboard">
+    <h1>전시회 모아보기</h1>
+    <table border="1">
+        <tr>
+            <th colspan="2">전시회 이름</th>
+            <th>위치</th>
+            <th>기간</th>
+            <th>운영시간</th>
+            <th>더보기</th>
+
+        </tr>
+        <tr>
+            <th colspan="2">Emotion Explosion</th>
+            <th>서울 강남구</th>
+            <th>2020.11.25. (수) ~ 2021.02.26. (금)</th>
+            <th>화요일-토요일 11:00AM-6:00PM</th>
+            <th><a href="exhibition/exhibitionInfo_1.html">보러가기</a></th>
+        </tr>
+        <tr>
+            <th colspan="2">저기걸어간다.한권의책이될사람!</th>
+            <th>서울 서초구</th>
+            <th>2020.12.03. (목) ~ 2021.01.30. (토)</th>
+            <th>월~금 11시-7시/토 11시~6시</th>
+            <th><a href="exhibition/exhibitionInfo_2.html">보러가기</a></th>
+        </tr>
+        <tr>
+            <th colspan="2">아침이면사라지는밤동안의공상들</th>
+            <th>호텔이매지너리 서울 성북구</th>
+            <th>2020.11.20. (금) ~ 2021.02.28. (일)</th>
+            <th>매일 11:00 - 23:00사전예약제</th>
+            <th><a href="exhibition/exhibitionInfo_3.html">보러가기</a></th>
+        </tr>
+        <tr>
+            <th colspan="2">제이비:freedomcolor</th>
+            <th>서울 중구</th>
+            <th>2020.11.11. (수) ~ 2020.12.29. (화)</th>
+            <th>매일(10:00~19:00)</th>
+            <th><a href="exhibition/exhibitionInfo_4.html">보러가기</a></th>
+        </tr>
+        <tr>
+            <td colspan="8">
+                <center>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">다음▶</a>
+                </center>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<footer>
+    <div id="div_information"><b>2조 남동현, 신은경, 오대준</b></div>
+</footer>
+</body>
+</html>
